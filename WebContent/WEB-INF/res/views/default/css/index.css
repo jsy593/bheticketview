@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*用户登录页面样式开始*/
+.bgbody{background-color:#006e9e;}
+.login{ background-color:#5795c9; border:2px solid #c8e6ff; width:600px; height:370px; margin:150px auto; text-align:center;}
+.labellogin{ font-size:18px; color:#fff;}
+.loginh1{ color:#fff; font-size:22px; text-align:center; margin-top:65px;}
+.logindiv{margin-top:20px;}
+.txtlogin{ width:200px;height:28px; line-height:28px; text-indent:2px; border:1px solid #ccc;}
+.btnlogin{width:100px;height:32px; line-height:32px; text-align:center; font-size:18px; border-radius:4px; border:none; color:#fff; background-color:#006e9e; margin-top:20px;}
+/*用户登录页面样式结束*/
+
+/*home页面样式开始*/ 
+.margincenter{ width:980px; margin:0 auto;}
+.header{ height:34px; line-height:34px; font-size:12px; color:#ccc; background:#2b2b2b;}
+.headertop{}
+.headertopleft{ }
+.headertopright{ }
+.exita{color:#fff}
+.main{margin:5px 0;}
+.btnorder{ height:28px; line-height:28px;padding:0px 5px; border:none; background-color:#eb4722;border-radius:5px; color:#fff;}
+.mainlista{ height:28px; line-height:28px; border:none; background-color:#006e9e;border-radius:5px; color:#fff; display:block; width:100px; text-align:center; float:left; margin:0 5px;}
+.systemUl li{ float:left; width:100px; height:26px; text-align:center; line-height:26px; margin:3px 5px;}
+.systemUl li a{ color:#fff;}
+.systemdiv{ height:30px; background-color:#eb4722;}
+.spesystemli{ border:1px solid #ccc; border-bottom:0; border-top-right-radius:4px;  border-top-left-radius:4px; background-color:#fff; }
+.spesystemli a{ color:#eb4722!important;} 
+.height30{ height:30px; line-height:30px;}
+/*home页面样式结束*/
+
+/*admin管理页面开始*/
+.bheTable{ width:100%;}
+.bheTable tr th{ height:30px; line-height:30px; border:1px solid #ccc; font-size:14px;}
+.bheTable tr td{ text-align:center; height:38px; line-height:38px; border:1px solid #ccc; font-size:12px; }
+.selestatiu{width:100px; height:26px; border:1px solid #ccc;}
+.txtsearch{width:150px; height:26px; line-height:26px; border:1px solid #ccc; margin:0 5px; text-indent:2px;}
+.searchdiv{margin:10px 0;}
+/*admin管理页面结束*/
+/*admin管理详情页面开始*/
+.spandetail{width:100px; height:28px;  line-height:28px; text-align:right; display:inline-block;}
+.btndiv{margin-left:80px; margin-top:10px;}
+.reasondiv{width:410px; height:130px; margin-top:10px; display:none; }
+.reason{width:300px; height:100px; overflow:scroll; border:1px solid #ccc; text-indent:2px;}
+.mar100{ margin:10px 100px; text-align:right;}
+/*admin管理详情页面结束*/
+/*部门维护*/
+.js-problem{display:none;}
+.addmanager{display:none;}
+.addmanager p{margin:5px 0;}
+/*当前任务*/
+.taskto{margin-left:100px;}
+.registRemark{ width:200px; height:100px; border:1px solid #ccc;}
+/*.registered div{margin:5px 0}*/
+
+/*提交工单样式*/
+.spanwid{ width:200px; float:left; line-height:28px;}
+.divwid{ width:500px;}
+.txtaradetail{ width:720px; height:95px; border:1px solid #ccc;}
+.txtorder{ width:720px; height:28px; border:1px solid #ccc;} 
+.mar5{margin:5px 0}
+
+ 
+/*系统管理*/ 
+.systemList{float: left; min-height:800px; background-color:#cdeaf8; border:1px solid #b3cfdd;} 
+.systemList ul li{ width:200px; height:27px;  line-height:27px; text-align:center; background:url(../images/bgline_03.png) repeat-x; color:#e4836d; font-size:14px;}
+.systemList ul li a{ color:#e4836d;}
+
+/*注册*/
+.loginrightlogin{ height:28px; line-height:28px; margin-left:5px; cursor:pointer;}
+.registered{  margin:0 250px;  }
+.martl{margin-left:100px; margin-top:5px;}
+.bgimagetfboys{background:url(../images/tfboys.png) no-repeat center;}
+
+	

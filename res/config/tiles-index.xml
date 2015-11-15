@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="frame" template="/WEB-INF/views/theme/default/common/frame.jsp">
+		<put-attribute name="title" value="工单系统" />
+		<put-attribute name="header"  value="/WEB-INF/views/theme/default/common/header.jsp" />
+		<put-attribute name="footer"   value="/WEB-INF/views/theme/default/common/footer.jsp" />
+	</definition>
+	
+	<definition name=".*.*" extends="frame">
+		<put-attribute name="center" value="/WEB-INF/views/theme/default/{1}/{2}.jsp" />
+	</definition>
+	
+</tiles-definitions>

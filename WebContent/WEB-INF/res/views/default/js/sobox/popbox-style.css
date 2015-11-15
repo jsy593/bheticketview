@@ -1,0 +1,14 @@
+/* so-popbox */
+.so-openmask{position:absolute;top:-2px;left:0px;width:100%;height:0px;background:#000;filter:alpha(opacity=30);opacity:0.3;Z-index:1100;}
+.so-popbox{ width:400px;position:fixed;_position:absolute;background:#fff;text-align:left;z-index:1120;}
+.h2-sopop{height:28px;line-height:28px;background:#eb4722; text-indent:5px;font-weight:bold; color:#fff;}
+.so-popbox .s-sopop-close{position:absolute;top:0px;right:2px;width:25px;height:25px;background:url(icon-x.png) no-repeat center;text-indent:-999em;overflow:hidden;cursor:hand;cursor:pointer;}
+.so-popbox-cont{padding:20px;}
+.p-so-popBtn{text-align:center;padding:5px 0 15px;}
+.so-popAlert .so-popbox-cont{padding:30px 30px 20px 30px;}
+.so-popAlert .p-so-popBtn{padding:5px 0 25px;}
+a.a-sopop-btn{display: -moz-inline-stack;display:inline-block;*display:inline;*zoom:1;margin:0 3px;padding:3px 12px;background:#4292dc;color:#fff;}
+a.a-sopop-btn:hover{background:#864aae;}
+a.a-sopop-cancel{background:#e6e6e6;color:#444;}
+a.a-sopop-cancel:hover{background:#ccc;}
+.ss-close{ float:right;padding-right:5px; color:#fff;}

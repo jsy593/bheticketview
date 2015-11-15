@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>部门维护</title>
+<link href="css/basic.css" rel="stylesheet" />
+<link href="css/index.css" rel="stylesheet" />
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/basic.js"></script>
+</head>
+
+<body>
+	<div class="wrap">
+    	<div class="mainDetail">
+            <div><span class="spandetail">部门名称：</span>研发部</div>
+            <div>
+            	<div class="left">
+                	<span class="spandetail">问题分类：</span>
+                    <select>
+                        <option>请选择</option>
+                    </select>
+                    <a href="#" class="js-addproblem">添加</a>
+                </div>            	
+                <div class="js-problem">
+                	<input type="text" class="txtvalue" />
+                    <input type="button" class="btnorder" value="确定" />
+                	<input type="button" class="btnorder js-problemexit" value="取消" />
+                </div>
+                
+             </div>
+             <div class="clear"></div>
+            <div>
+            	<div>
+                	<span class="spandetail">部门管理员：</span>
+                    <select>
+                        <option>请选择</option>
+                    </select>
+                    <a href="#" class="js-addmanager">添加</a>                
+                </div>
+                
+            	
+             </div>
+            <div class="btndiv">
+                <input type="button" class="btnorder" value="停用" />
+                <input type="button" class="btnorder" value="启用" />
+            </div>
+            
+            
+            <div class="mart10 addmanager js-manager">
+                	<p><span class="spandetail">登录名：</span><input  type="text"  class="txtvalue"/></p>
+                    <p><span class="spandetail">密码：</span><input  type="password"  class="txtvalue"/></p>
+                    <p><span class="spandetail">电话：</span><input  type="tel"  class="txtvalue"/></p>
+                    <p><span class="spandetail">邮箱：</span><input  type="email"  class="txtvalue"/></p>
+                    <p><span class="spandetail">备注：</span><input  type="text"  class="txtvalue"/></p>
+                    <div class="btndiv">
+                        <input type="button" class="btnorder" value="确定" />
+                        <input type="button" class="btnorder js-managerexit" value="取消" />
+                    </div>
+            </div>
+        </div>
+        <!---->
+        
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="res/views/default/css/basic.css" rel="stylesheet" />
+<link href="res/views/default/css/index.css" rel="stylesheet" />
+
+</head>
+
+<body>
+	<div class="wrap">
+    	<div class="mainDetail">
+            <div><span class="spandetail">用户名：</span>${user.username}</div>
+            <div><span class="spandetail">邮箱：</span>${user.email}</div>
+            <div><span class="spandetail">电话：</span>${user.phone}</div>
+            <div><span class="spandetail">性别：</span>${user.sex}</div>
+            <div><span class="spandetail">状态：</span>${user.status}</div>
+            <div><span class="spandetail">备注：</span>${user.remark}</div>
+            <div><span class="spandetail">时间：</span>2015-09-14</div>
+            <div class="btndiv">
+                <input type="button" class="btnorder" value="通过" />
+                <input type="button" class="btnorder js-nopass" value="不通过" />
+                <input type="button" class="btnorder" value="禁用" />
+                <input type="button" class="btnorder" value="启用" />
+            </div>
+        </div>
+        <!--理由弹框页面开始-->
+        	<div class="reasondiv">
+            	<div>
+                	 <span class="spandetail left">理由：</span><textarea class="reason"></textarea>
+                </div>
+                <div class="mar100">
+                	<input type="button" class="btnorder" value="确定" />
+                	<input type="button" class="btnorder js-cancel" value="取消" />
+                </div>
+              
+                
+            </div>
+        
+         <!--理由弹框页面结束-->
+    </div>
+
+</body>
+</html>
+	<script type="text/javascript" src="res/views/default/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="res/views/default/js/adminDetails.js"></script>
+	<script type="text/javascript" src="res/views/default/js/basic.js"></script>
